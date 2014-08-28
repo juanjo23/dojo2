@@ -1,10 +1,16 @@
-#def task_0521():
-#	"""
-#	Escribe una comprension que evalue
-#	una lista cuyo elemento i es el valor correspondiente a la clave k
-#	en el elemento i del diccionario en la lista  
-#	"""
-#	dlist = [{'James':'Sean', 'directos':'Terence'}, {'James':'Royer', 'Director', 'Lewis'}]
+def task_0521(k):
+	"""
+	Encuentra un valor en un diccionario a partir de su clave, dentro de una lista
+	>>> task_0521('James')
+	
+	"""
+	dlist = [{'James':'Sean', 'directos':'Terence'}, {'James':'Royer', 'Director', 'Lewis'}, {'James':'Pearse', 'Director':'Royer'}]
+
+	for i in dlist:
+		if(k in i.keys()):
+			print( i.values() )
+
+task_0521('James')
 
 
 
