@@ -2,15 +2,15 @@ def task_0521(k):
 	"""
 	Encuentra un valor en un diccionario a partir de su clave, dentro de una lista
 	>>> task_0521('James')
-	
+	Sean
+	Royer
+	Pearse
 	"""
-	dlist = [{'James':'Sean', 'directos':'Terence'}, {'James':'Royer', 'Director', 'Lewis'}, {'James':'Pearse', 'Director':'Royer'}]
+	dlist = [{'James':'Sean', 'directos':'Terence'}, {'James':'Royer', 'Director': 'Lewis'}, {'James':'Pearse', 'Director':'Royer'}]
 
 	for i in dlist:
 		if(k in i.keys()):
-			print( i.values() )
-
-task_0521('James')
+			print( i[k] )
 
 
 
