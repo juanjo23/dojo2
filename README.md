@@ -1,4 +1,4 @@
-dojo2
+Dojo
 =====
 
-mis
+Laboratorio de introducción a python
