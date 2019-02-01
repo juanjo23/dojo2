@@ -1,3 +1,4 @@
+
 def task_0521(k):
 	"""
 	Encuentra un valor en un diccionario a partir de su clave, dentro de una lista
@@ -24,15 +25,15 @@ def task_0522(k):
 	False
 	"""
 	dlist=[{'Bilbo':'Ian', 'Frodo':'Elijah'}, {'Bilbo':'Martin', 'Thorin': 'Richard'}];
-	cont = 0	
+	cont = 0
 	for i in dlist:
 		if(k in i.keys()):
 			cont = cont+1
-			
+
 	if cont == len(dlist):
 		return True
 	else:
-		return False	
+		return False
 
 
 def twice(z):
